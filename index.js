@@ -9,3 +9,11 @@ app.listen(port, () => {
 app.get("/", (req, res) => {
 	res.send("Hello Express!")
 })
+
+app.get("/about", (req, res) => {
+	res.send("<h1>This is About Me Page!</h1>")
+})
+
+app.get("/contact", (req, res) => {
+	res.send("<h1>Contact Me At elonmusk@gmail.com</h1>")
+})
